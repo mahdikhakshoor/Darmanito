@@ -263,7 +263,7 @@ a {
   padding-bottom: 10px;
 }
 .features-description p {
-  color: rgba(122, 122, 122, 0.692);
+  color: rgba(31, 31, 31, 0.692);
   line-height: 30px;
   padding-bottom: 15px;
 }
@@ -487,7 +487,7 @@ footer .container {
   justify-content: space-between;
   text-align: right;
   font-family: "mahdi";
-  padding: 50px 10px 10px 10px;
+  padding: 50px 20px;
   margin-bottom: 10px;
 }
 .logo-footer {
@@ -496,22 +496,24 @@ footer .container {
   justify-content: flex-end;
 }
 .logo-footer a {
-  color: #1894ff;
-  font-size: 50px;
   padding-left: 15px;
+}
+.logo-footer span {
+  font-size: 20px;
 }
 .logo-footer p {
   padding-top: 10px;
-  font-size: 10px;
+  font-size: 12px;
   color: rgba(92, 92, 92, 0.719);
 }
 .footer-info p {
   padding-top: 20px;
   font-size: 15px;
   line-height: 20px;
+  margin-bottom: 15px;
 }
 .footer-info span {
-  font-size: 10px;
+  font-size: 15px;
   color: rgba(92, 92, 92, 0.719);
 }
 .social-icons {
@@ -532,7 +534,7 @@ footer .container {
 }
 .Services a {
   display: block;
-  color: #00000054;
+  color: #0000008a;
   margin-bottom: 15px;
   transition: 0.5s;
 }
@@ -576,8 +578,8 @@ footer .container {
   display: none;
 }
 @media only screen and (max-width: 600px) {
-  header .navbar .download-app {
-    display: none;
+  .nav-item > .download-app a {
+    padding: 15px 20px;
   }
   .navbar {
     position: fixed;
@@ -593,11 +595,12 @@ footer .container {
   .nav-menu {
     position: fixed;
     left: -100%;
-    top: 4.4rem;
+    top: 4.2rem;
     flex-direction: column;
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
     width: 100%;
-    text-align: center;
+    text-align: right;
+    font-size: 20px;
     transition: 0.3s;
     box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
   }
@@ -607,7 +610,7 @@ footer .container {
   }
 
   .nav-item {
-    margin: 2.5rem 0;
+    margin: 1.2rem 0;
   }
 
   .hamburger {
@@ -626,6 +629,7 @@ footer .container {
   .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
+
   .download-app a {
     font-weight: 500;
     padding: 15px 15px;
@@ -672,7 +676,7 @@ footer .container {
   /* hero */
   /* about us */
   .about-us {
-    margin-top: 100px;
+    margin-top: 50px;
     display: flex;
     flex-direction: column-reverse;
   }
@@ -703,10 +707,12 @@ footer .container {
     margin-top: 50px;
   }
   .features-description h3 {
+    font-size: 20px;
+    font-weight: 600;
     margin-bottom: 10px;
   }
   .features-description p {
-    font-size: 0.7em;
+    font-size: 0.95em;
     margin-bottom: 10px;
   }
   .choose-features {
@@ -735,13 +741,19 @@ footer .container {
     font-weight: 500;
     font-size: 1.2em;
   }
+  .subscription-bg {
+    background: rgb(0, 138, 255);
+  }
+
   .download-links {
     margin-bottom: 60px;
     flex-direction: column-reverse;
   }
   .download-des p {
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.89);
     line-height: 30px;
-    font-size: 0.8em;
+    font-size: 0.95em;
   }
   .download-link {
     margin-bottom: 20px;
@@ -900,7 +912,8 @@ footer .container {
   .hero-buttons .membership {
     padding: 0;
   }
-  .features {
+
+  .about-info .features {
     display: none;
   }
   .about-info {
