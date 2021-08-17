@@ -83,7 +83,7 @@ a {
   padding: 15px 25px;
   font-weight: 600;
   letter-spacing: 1.5px;
-  background-color: #87cfeb36;
+  background-color: #e6f3ffab;
   border-radius: 10px;
 }
 .download-app a:hover {
@@ -150,8 +150,7 @@ a {
 .hero-buttons .membership a:hover {
   background-color: #87cfeb36;
 }
-.btn {
-}
+
 /* hero */
 /* about us */
 .about-us {
@@ -203,7 +202,7 @@ a {
 /* features */
 .features {
   display: flex;
-  padding-top: 100px;
+  padding-top: 81px;
   align-items: center;
   justify-content: space-between;
 }
@@ -272,7 +271,7 @@ a {
   line-height: 20px;
 }
 .steps p {
-  color: rgba(122, 122, 122, 0.692);
+  color: rgb(7, 7, 7);
 }
 .steps i {
   margin-top: 10px;
@@ -303,7 +302,7 @@ a {
   justify-content: space-around;
 }
 .subscription-bg {
-  background-image: url(img/subscription-bg.svg);
+  background-image: url(img/Path\ 15752.png);
   background-color: #038aff;
 }
 
@@ -389,7 +388,7 @@ a {
   flex-direction: row-reverse;
   align-items: center;
   justify-content: space-between;
-  box-shadow: 0px 0 20px 5px #48b5e02c;
+  box-shadow: 0px 0 20px 5px #00000013;
   border-radius: 20px;
 }
 .register-info h3,
@@ -411,6 +410,7 @@ p {
   max-height: 100%;
 }
 .register-img img {
+  max-width: 400px;
   margin: auto;
   border-radius: 20px;
 }
@@ -484,7 +484,7 @@ footer .container {
   justify-content: space-between;
   text-align: right;
   font-family: "mahdi";
-  padding: 50px 20px;
+  padding: 88px 20px;
   margin-bottom: 10px;
 }
 .logo-footer {
@@ -501,17 +501,17 @@ footer .container {
 .logo-footer p {
   padding-top: 10px;
   font-size: 12px;
-  color: rgba(92, 92, 92, 0.719);
+  color: rgba(0, 0, 0, 0.993);
 }
 .footer-info p {
   padding-top: 20px;
-  font-size: 15px;
-  line-height: 20px;
-  margin-bottom: 15px;
+  font-size: 12px;
+  margin-bottom: 10px;
 }
 .footer-info span {
-  font-size: 15px;
-  color: rgba(92, 92, 92, 0.719);
+  font-size: 14px;
+  color: rgb(7, 7, 7);
+  line-height: 26px;
 }
 .social-icons {
   display: flex;
@@ -532,7 +532,7 @@ footer .container {
 .Services a {
   display: block;
   color: #0000008a;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
   transition: 0.5s;
 }
 .Services a:hover {
@@ -542,7 +542,7 @@ footer .container {
 }
 .Services h6 {
   font-size: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 26px;
 }
 .footer-donload-links h5 {
   font-size: 20px;
@@ -576,6 +576,12 @@ footer .container {
 }
 /*__________________FAQ__________________*/
 /* FAQ Brand */
+<<<<<<< HEAD
+=======
+hr {
+  border: 1px solid rgba(0, 0, 0, 0.055);
+}
+>>>>>>> 4779de5 (forth commit)
 .faq-text h1 {
   padding: 40px;
 }
@@ -669,6 +675,7 @@ footer .container {
 .contact-us .container {
   padding-bottom: 40px;
 }
+<<<<<<< HEAD
 .contact-us-form {
 }
 .contact-us-section {
@@ -678,6 +685,22 @@ footer .container {
 }
 .send-message {
   width: vh;
+=======
+
+.contact-us-section {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.map-image img {
+  max-width: 600px;
+  height: auto;
+}
+
+.send-message {
+>>>>>>> 4779de5 (forth commit)
   text-align: right;
 }
 .send-message p {
@@ -720,6 +743,10 @@ footer .container {
   border-radius: 10px;
   padding: 10px 20vh;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 4779de5 (forth commit)
 .contact-us-map {
   position: relative;
   text-align: center;
@@ -740,7 +767,11 @@ footer .container {
   margin-bottom: 10px;
 }
 .address p:last-child {
+<<<<<<< HEAD
   line-height: 25px;
+=======
+  line-height: 32px;
+>>>>>>> 4779de5 (forth commit)
   color: rgba(0, 0, 0, 0.637);
 }
 .address {
@@ -753,6 +784,7 @@ footer .container {
   background-color: rgb(255, 255, 255);
   margin: 0 20px 20px 20px;
   padding: 20px;
+<<<<<<< HEAD
   bottom: 0;
   border-radius: 10px;
 }
@@ -762,8 +794,223 @@ footer .container {
 }
 /* contact us section */
 /*__________________COntact Us__________________*/
+=======
+  bottom: 10px;
+  border-radius: 10px;
+}
+
+/* contact us section */
+/*__________________COntact Us__________________*/
+/*__________________Membership__________________*/
+.registration {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.registration-form p {
+  margin-top: 23px;
+  font-size: 16px;
+  line-height: 30px;
+}
+.registration-form h1 {
+  font-size: 30px;
+  line-height: 50px;
+  color: #1894ff;
+}
+.registration-form {
+  width: 45%;
+  text-align: right;
+}
+.quick-registration {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row-reverse;
+  position: relative;
+  align-items: center;
+}
+.quick-registration input {
+  border: none;
+  width: 100%;
+
+  text-align: right;
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 16px;
+  outline: none;
+  background-color: #f5f5f5;
+}
+.quick-registration button {
+  position: absolute;
+  left: 0;
+  width: 130px;
+  background-color: rgba(0, 0, 0, 0.726);
+  font-size: 16px;
+  color: white;
+  background-color: #1894ff;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  padding: 10px;
+  margin-left: 16px;
+}
+.pharmacy-names {
+  width: 45%;
+}
+.pharmacy-name {
+  position: relative;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  text-align: right;
+  margin-bottom: 36px;
+  box-shadow: 0px 0 20px 5px hsla(208, 100%, 55%, 0.116);
+  border-radius: 25px;
+  padding: 25px;
+}
+.pharmacy-name h3 {
+  font-size: 30px;
+  margin-bottom: 23px;
+}
+.pharmacy-name span {
+  font-size: 12px;
+  border-radius: 10px;
+  padding: 7px 15px;
+  background-color: #1894ff;
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  color: white;
+}
+.person-icon {
+  margin-left: 16px;
+}
+.pharmacy-info img {
+  margin-left: 16px;
+}
+.pharmacy-info p {
+  font-size: 12px;
+}
+.pharmacy-info {
+  flex-direction: row-reverse;
+  display: flex;
+}
+.pharmacy-names .pharmacy-name:nth-child(2) {
+  opacity: 0.7;
+  margin-right: 66.5px;
+}
+.pharmacy-names .pharmacy-name:nth-child(2) .person-icon img {
+  width: 52px;
+}
+.pharmacy-names .pharmacy-name:nth-child(2) h3 {
+  font-size: 13px;
+}
+.pharmacy-names .pharmacy-name:nth-child(2) p {
+  font-size: 8px;
+}
+.pharmacy-names .pharmacy-name:nth-child(2) img {
+  width: 8px;
+}
+.pharmacy-names .pharmacy-name:nth-child(2) span {
+  display: none;
+}
+.pharmacy-names .pharmacy-name:nth-child(3) {
+  opacity: 0.6;
+  padding-right: 18px;
+  margin-right: 190px;
+}
+.pharmacy-names .pharmacy-name:nth-child(3) .person-icon img {
+  width: 52px;
+}
+.pharmacy-names .pharmacy-name:nth-child(3) h3 {
+  font-size: 13px;
+}
+.pharmacy-names .pharmacy-name:nth-child(3) p {
+  font-size: 8px;
+}
+.pharmacy-names .pharmacy-name:nth-child(3) img {
+  width: 8px;
+}
+.pharmacy-names .pharmacy-name:nth-child(3) span {
+  font-size: 8px;
+}
+.number-user {
+  padding-top: 28px;
+  padding-bottom: 36px;
+  text-align: center;
+}
+.number-user p {
+  margin-bottom: 17px;
+}
+.number-user span {
+  font-size: 36px;
+}
+.number-users {
+  background-color: #1894ff;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  z-index: 5;
+}
+
+.darmanito-services-info {
+  margin-top: 100px;
+}
+.darmanito-services-info h2 {
+  font-size: 20px;
+  text-align: right;
+  padding: 4px 32px 4px 0;
+  border-right: 4px solid #00de9a;
+  border-radius: 2px;
+  color: #2361b5;
+  margin-bottom: 23px;
+}
+.choose-your-service img {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+.choose-your-service {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: right;
+}
+.membership-services h3 {
+  font-size: 20px;
+  color: #2361b5;
+  margin-top: 56.4px;
+}
+.membership-services p {
+  margin-top: 22px;
+  line-height: 32px;
+  font-size: 14px;
+}
+.membership-btn {
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+}
+.membership-btn a {
+  color: #fff;
+  padding: 15px 56px;
+  background-color: #1894ff;
+  border-radius: 10px;
+}
+.membership-services {
+  padding: 54px 21px 36px 21px;
+  box-shadow: 0px 0 20px 5px #00000013;
+  border-radius: 50px;
+  width: 45vh;
+}
+/*__________________Membership__________________*/
+>>>>>>> 4779de5 (forth commit)
 
 @media only screen and (max-width: 600px) {
+  .container {
+    padding: 25px 32px !important;
+  }
   .nav-item > .download-app a {
     padding: 15px 20px;
   }
@@ -845,7 +1092,7 @@ footer .container {
   }
   .hero-info #mobile-view {
     justify-content: center;
-    margin-bottom: 50px;
+    margin-bottom: 35px;
   }
   .hero-buttons {
     display: flex;
@@ -892,7 +1139,7 @@ footer .container {
     flex-direction: column-reverse;
   }
   .features-description {
-    margin-top: 50px;
+    margin-top: 34px;
   }
   .features-description h3 {
     font-size: 20px;
@@ -900,7 +1147,7 @@ footer .container {
     margin-bottom: 10px;
   }
   .features-description p {
-    font-size: 0.95em;
+    font-size: 12px;
     margin-bottom: 10px;
   }
   .first {
@@ -917,7 +1164,7 @@ footer .container {
   }
   .step,
   div p {
-    font-size: 0.8em;
+    font-size: 12px;
   }
 
   .choose-features {
@@ -938,7 +1185,7 @@ footer .container {
   .download-des h5 {
     margin-top: 50px;
     font-weight: 500;
-    font-size: 1.2em;
+    font-size: 16px;
   }
   .subscription-bg {
     background: rgb(0, 138, 255);
@@ -967,6 +1214,13 @@ footer .container {
   .removed-link-mobile-view {
     display: none;
   }
+  .download-with-phone-number h5 {
+    padding-bottom: 26px;
+  }
+  .download-with-phone-number p {
+    font-size: 12px;
+  }
+
   /* download ways */
   /* register */
   .register {
@@ -996,7 +1250,10 @@ footer .container {
     width: 340px !important;
   }
   .download-form input {
-    font-size: 0.8em;
+    font-size: 12px;
+  }
+  .download-form button {
+    font-size: 13px;
   }
   /* register */
 
@@ -1014,13 +1271,13 @@ footer .container {
     flex-direction: column;
   }
   .support-info h4 {
-    font-size: 1.1em;
+    font-size: 16px;
     margin-bottom: 20px;
   }
   .support-info p {
-    font-size: 0.7em;
-    margin-bottom: 20px;
-    color: rgba(255, 255, 255, 0.534);
+    font-size: 12px;
+    margin-bottom: 28px;
+    color: rgb(255, 255, 255);
   }
   .call-center a {
     font-size: 1.4em;
@@ -1045,11 +1302,10 @@ footer .container {
     justify-content: center;
   }
   .logo-footer span {
-    font-size: 1.2em;
-    font-weight: 600;
+    font-size: 18px;
   }
   .logo-footer p {
-    font-size: 0.8em;
+    font-size: 12px;
   }
   .footer-info p {
     font-size: 1.1em;
@@ -1065,10 +1321,6 @@ footer .container {
   }
   #screen-view {
     display: none;
-  }
-
-  .container {
-    padding: 25px 40px;
   }
 
   .input {
@@ -1091,8 +1343,13 @@ footer .container {
     font-size: 1.1em;
   }
   .what-is-your-question-about h3 {
+<<<<<<< HEAD
     margin-right: 25px;
     padding-right: 15px;
+=======
+    padding-right: 15px;
+    margin-bottom: 30px;
+>>>>>>> 4779de5 (forth commit)
   }
   .questions {
     margin-top: 50px;
@@ -1106,6 +1363,7 @@ footer .container {
     padding-left: 20px;
     width: 30px;
     height: 30px;
+<<<<<<< HEAD
   }
   .answer p {
     padding: 10px 40px 10px 0;
@@ -1152,12 +1410,171 @@ footer .container {
   }
   .contact-us-map {
     margin-bottom: 50px;
+=======
+  }
+  .answer p {
+    font-size: 12px;
+    padding: 4px 20px 4px 0;
+  }
+  /*__________________FAQ__________________*/
+  /*__________________Contact Us__________________*/
+  .contact-us-brand {
+    margin-top: 20px;
+  }
+  .contact-us-brand h1 {
+    font-size: 1.1em;
+    padding: 20px;
+    padding-top: 30px;
+  }
+  .map-image {
+    margin-bottom: 100px;
+  }
+  .map-image img {
+    max-width: 300px;
+    height: auto;
+  }
+  .address {
+    top: 150px;
+    left: 0;
+    right: 0;
+    height: 200px;
+  }
+  .contact-us-section {
+    flex-direction: column;
+  }
+
+  .email-number div:first-child a {
+    padding-left: 40px;
+  }
+  .contact-us-container {
+    padding: 0;
+  }
+  .contact-us-section {
+    margin-top: 46px;
+  }
+  .email-number {
+    margin-left: 0;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .address p,
+  .address a,
+  .address h2 {
+    font-size: 0.8em;
+  }
+  .address h2 {
+    margin-bottom: 0;
+    margin-top: 20px;
+  }
+  .send-message {
+    width: 50vh;
+  }
+  .address {
+    flex-direction: column;
+    box-shadow: 0px 0 20px 5px #0000002c;
+  }
+  .send-form a {
+    padding: 10px 120px;
+  }
+  .contact-us-map {
+    margin-bottom: 50px;
+  }
+  .support-section {
+    margin-top: 0;
+  }
+  /*__________________COntact Us__________________*/
+  /*__________________Membership__________________*/
+  .registration {
+    flex-direction: column;
+  }
+  .pharmacy-names {
+    width: 100%;
+  }
+  .person-icon img {
+    width: 50px;
+  }
+  .pharmacy-name h3 {
+    font-size: 13px;
+  }
+  .pharmacy-name p {
+    font-size: 8px;
+  }
+  .pharmacy-name {
+    padding-bottom: 20px;
+  }
+  .pharmacy-name {
+    margin-bottom: 63px;
+  }
+  .pharmacy-info img {
+    width: 8px;
+  }
+  .registration-form {
+    width: 100%;
+  }
+  .registration-form h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .registration-form p {
+    font-size: 14px;
+  }
+  .choose-your-service {
+    flex-direction: column;
+  }
+  .quick-registration input {
+    font-size: 12px;
+  }
+  .quick-registration button {
+    font-size: 12px;
+    width: 100px;
+  }
+  .number-users {
+    flex-direction: column;
+  }
+  .number-user p {
+    text-align: center;
+    margin-bottom: 28px;
+  }
+  .darmanito-services-info h2 {
+    font-size: 16px;
+    padding-right: 20px;
+  }
+  .darmanito-services-info p {
+    line-height: 26px;
+    font-size: 12px;
+  }
+  .membership-services {
+    margin-bottom: 20px;
+  }
+  .darmanito-services-info {
+    margin-top: 37px;
+  }
+  /*__________________Membership__________________*/
+  .steps {
+    align-items: unset;
+  }
+  .steps i {
+    padding-bottom: 10px;
+    margin-top: 0;
+  }
+  .steps p {
+    font-size: 12px;
+>>>>>>> 4779de5 (forth commit)
   }
   /*__________________COntact Us__________________*/
 }
+<<<<<<< HEAD
 @media only screen and (max-width: 768px) {
+=======
+@media only screen and (max-width: 1000px) and (min-width: 768px) {
+  ...;
+}
+ {
+>>>>>>> 4779de5 (forth commit)
   .container {
-    padding: 15px 0;
+    padding: 15px 0px;
   }
   .logo {
     font-size: 0.8em;
@@ -1203,6 +1620,47 @@ footer .container {
     overflow-x: auto;
     white-space: nowrap;
   }
+<<<<<<< HEAD
+=======
+
+  .registration {
+    flex-direction: column;
+  }
+  .pharmacy-names .pharmacy-name:nth-child(2) {
+    margin-right: 0;
+  }
+  .pharmacy-names .pharmacy-name:nth-child(3) {
+    margin-right: 0;
+  }
+  .pharmacy-name h3 {
+    font-size: 13px;
+  }
+  .quick-registration input {
+    font-size: 10px;
+  }
+
+  .quick-registration button {
+    margin-left: 0;
+  }
+  .choose-your-service {
+    flex-direction: column;
+  }
+  .membership-services {
+    margin-bottom: 20px;
+  }
+  .support-section .container {
+    padding: 20px 20px;
+  }
+  .contact-us-section {
+    flex-direction: column;
+  }
+  .contact-us-form {
+    margin-top: 50px;
+  }
+  .copy-right {
+    width: 20%;
+  }
+>>>>>>> 4779de5 (forth commit)
 }
 @media only screen and (max-width: 1024px) {
   .container {
