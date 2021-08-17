@@ -576,12 +576,9 @@ footer .container {
 }
 /*__________________FAQ__________________*/
 /* FAQ Brand */
-<<<<<<< HEAD
-=======
 hr {
   border: 1px solid rgba(0, 0, 0, 0.055);
 }
->>>>>>> 4779de5 (forth commit)
 .faq-text h1 {
   padding: 40px;
 }
@@ -675,17 +672,6 @@ hr {
 .contact-us .container {
   padding-bottom: 40px;
 }
-<<<<<<< HEAD
-.contact-us-form {
-}
-.contact-us-section {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.send-message {
-  width: vh;
-=======
 
 .contact-us-section {
   margin-top: 100px;
@@ -700,7 +686,6 @@ hr {
 }
 
 .send-message {
->>>>>>> 4779de5 (forth commit)
   text-align: right;
 }
 .send-message p {
@@ -743,10 +728,7 @@ hr {
   border-radius: 10px;
   padding: 10px 20vh;
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> 4779de5 (forth commit)
 .contact-us-map {
   position: relative;
   text-align: center;
@@ -767,11 +749,7 @@ hr {
   margin-bottom: 10px;
 }
 .address p:last-child {
-<<<<<<< HEAD
-  line-height: 25px;
-=======
   line-height: 32px;
->>>>>>> 4779de5 (forth commit)
   color: rgba(0, 0, 0, 0.637);
 }
 .address {
@@ -784,17 +762,6 @@ hr {
   background-color: rgb(255, 255, 255);
   margin: 0 20px 20px 20px;
   padding: 20px;
-<<<<<<< HEAD
-  bottom: 0;
-  border-radius: 10px;
-}
-.map-image img {
-  width: 50vh;
-  height: 550px;
-}
-/* contact us section */
-/*__________________COntact Us__________________*/
-=======
   bottom: 10px;
   border-radius: 10px;
 }
@@ -1005,7 +972,6 @@ hr {
   width: 45vh;
 }
 /*__________________Membership__________________*/
->>>>>>> 4779de5 (forth commit)
 
 @media only screen and (max-width: 600px) {
   .container {
@@ -1343,13 +1309,8 @@ hr {
     font-size: 1.1em;
   }
   .what-is-your-question-about h3 {
-<<<<<<< HEAD
-    margin-right: 25px;
-    padding-right: 15px;
-=======
     padding-right: 15px;
     margin-bottom: 30px;
->>>>>>> 4779de5 (forth commit)
   }
   .questions {
     margin-top: 50px;
@@ -1363,54 +1324,6 @@ hr {
     padding-left: 20px;
     width: 30px;
     height: 30px;
-<<<<<<< HEAD
-  }
-  .answer p {
-    padding: 10px 40px 10px 0;
-  }
-  /*__________________FAQ__________________*/
-  /*__________________Contact Us__________________*/
-  .contact-us-brand h1 {
-    font-size: 1.1em;
-    padding: 20px;
-    padding-top: 30px;
-  }
-  .map-image img {
-    height: 50vh;
-  }
-  .contact-us-section {
-    flex-direction: column;
-  }
-
-  .email-number div:first-child a {
-    padding-left: 40px;
-  }
-
-  .email-number {
-    margin-left: 0;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .address p,
-  .address a,
-  .address h2 {
-    font-size: 0.8em;
-  }
-  .send-message {
-    width: 50vh;
-  }
-  .address {
-    flex-direction: column;
-    box-shadow: 0px 0 20px 5px #0000002c;
-  }
-  .send-form a {
-    padding: 10px 18.5vh;
-  }
-  .contact-us-map {
-    margin-bottom: 50px;
-=======
   }
   .answer p {
     font-size: 12px;
@@ -1561,18 +1474,12 @@ hr {
   }
   .steps p {
     font-size: 12px;
->>>>>>> 4779de5 (forth commit)
   }
-  /*__________________COntact Us__________________*/
 }
-<<<<<<< HEAD
-@media only screen and (max-width: 768px) {
-=======
 @media only screen and (max-width: 1000px) and (min-width: 768px) {
   ...;
 }
  {
->>>>>>> 4779de5 (forth commit)
   .container {
     padding: 15px 0px;
   }
@@ -1620,8 +1527,6 @@ hr {
     overflow-x: auto;
     white-space: nowrap;
   }
-<<<<<<< HEAD
-=======
 
   .registration {
     flex-direction: column;
@@ -1660,7 +1565,6 @@ hr {
   .copy-right {
     width: 20%;
   }
->>>>>>> 4779de5 (forth commit)
 }
 @media only screen and (max-width: 1024px) {
   .container {
