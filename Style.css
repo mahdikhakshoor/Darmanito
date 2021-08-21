@@ -655,11 +655,16 @@ hr {
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
 }
-
+.faq-brand {
+  position: relative;
+}
 /* question */
 /*__________________FAQ__________________*/
 /*__________________Contact Us__________________*/
 /* contact us brand */
+.contact-us-brand {
+  position: relative;
+}
 .contact-us-brand h1 {
   text-align: center;
   color: white;
@@ -913,11 +918,25 @@ hr {
   font-size: 36px;
 }
 .number-users {
+  position: relative;
   background-color: #1894ff;
   color: white;
   display: flex;
   justify-content: space-around;
   z-index: 5;
+}
+.back_ground img {
+  position: absolute;
+  max-height: 100%;
+}
+.Left img {
+  top: 0;
+  left: 0;
+}
+.Right img {
+  transform: scaleX(-1);
+  top: 0;
+  right: 0;
 }
 
 .darmanito-services-info {
@@ -938,6 +957,7 @@ hr {
   margin-right: auto;
 }
 .choose-your-service {
+  padding: 0 100px;
   margin-top: 60px;
   display: flex;
   align-items: center;
@@ -1049,7 +1069,11 @@ hr {
     align-items: center;
   }
   .hero-img {
+    position: relative;
     width: 100%;
+  }
+  .hero__img_bg .back_ground img {
+    max-width: 50%;
   }
   .hero-info {
     text-align: center;
@@ -1463,6 +1487,16 @@ hr {
   }
   .darmanito-services-info {
     margin-top: 37px;
+  }
+
+  .Left img {
+    height: 25vh;
+    top: 30%;
+  }
+
+  .Right img {
+    top: 30%;
+    height: 25vh;
   }
   /*__________________Membership__________________*/
   .steps {
