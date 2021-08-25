@@ -156,7 +156,7 @@ a {
 .about {
   margin-top: 200px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 .about__img a img {
@@ -168,8 +168,13 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 0px;
+  margin-top: 62px;
   text-align: center;
+}
+.about__features-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .about__info .about__features img {
   padding: 20px;
@@ -781,28 +786,28 @@ hr {
   justify-content: space-between;
   align-items: center;
 }
-.registration-form p {
+.registration__form p {
   margin-top: 23px;
   font-size: 16px;
   line-height: 30px;
 }
-.registration-form h1 {
+.registration__form h1 {
   font-size: 30px;
   line-height: 50px;
   color: #1894ff;
 }
-.registration-form {
+.registration__form {
   width: 45%;
   text-align: right;
 }
-.quick-registration {
+.registration__form-input {
   margin-top: 50px;
   display: flex;
   flex-direction: row-reverse;
   position: relative;
   align-items: center;
 }
-.quick-registration input {
+.registration__form-input input {
   border: none;
   width: 100%;
 
@@ -813,7 +818,7 @@ hr {
   outline: none;
   background-color: #f5f5f5;
 }
-.quick-registration button {
+.registration__form-input button {
   position: absolute;
   left: 0;
   width: 130px;
@@ -827,10 +832,10 @@ hr {
   padding: 10px;
   margin-left: 16px;
 }
-.pharmacy-names {
+.registration__pharmacy {
   width: 45%;
 }
-.pharmacy-name {
+.registration__item {
   position: relative;
   display: flex;
   flex-direction: row-reverse;
@@ -841,11 +846,11 @@ hr {
   border-radius: 25px;
   padding: 25px;
 }
-.pharmacy-name h3 {
+.registration__item h3 {
   font-size: 30px;
   margin-bottom: 23px;
 }
-.pharmacy-name span {
+.registration__item span {
   font-size: 12px;
   border-radius: 10px;
   padding: 7px 15px;
@@ -858,72 +863,72 @@ hr {
 .person-icon {
   margin-left: 16px;
 }
-.pharmacy-info img {
+.registration__item-info img {
   margin-left: 16px;
 }
-.pharmacy-info p {
+.registration__item-info p {
   font-size: 12px;
 }
-.pharmacy-info {
+.registration__item-info {
   flex-direction: row-reverse;
   display: flex;
 }
-.pharmacy-names .pharmacy-name:nth-child(2) {
+.registration__pharmacy .registration__item:nth-child(2) {
   opacity: 0.7;
   margin-right: 66.5px;
 }
-.pharmacy-names .pharmacy-name:nth-child(2) .person-icon img {
+.registration__pharmacy .registration__item:nth-child(2) .person-icon img {
   width: 52px;
 }
-.pharmacy-names .pharmacy-name:nth-child(2) h3 {
+.registration__pharmacy .registration__item:nth-child(2) h3 {
   font-size: 13px;
 }
-.pharmacy-names .pharmacy-name:nth-child(2) p {
+.registration__pharmacy .registration__item:nth-child(2) p {
   font-size: 8px;
 }
-.pharmacy-names .pharmacy-name:nth-child(2) img {
+.registration__pharmacy .registration__item:nth-child(2) img {
   width: 8px;
 }
-.pharmacy-names .pharmacy-name:nth-child(2) span {
+.registration__pharmacy .registration__item:nth-child(2) span {
   display: none;
 }
-.pharmacy-names .pharmacy-name:nth-child(3) {
+.registration__pharmacy .registration__item:nth-child(3) {
   opacity: 0.6;
   padding-right: 18px;
   margin-right: 190px;
 }
-.pharmacy-names .pharmacy-name:nth-child(3) .person-icon img {
+.registration__pharmacy .registration__item:nth-child(3) .person-icon img {
   width: 52px;
 }
-.pharmacy-names .pharmacy-name:nth-child(3) h3 {
+.registration__pharmacy .registration__item:nth-child(3) h3 {
   font-size: 13px;
 }
-.pharmacy-names .pharmacy-name:nth-child(3) p {
+.registration__pharmacy .registration__item:nth-child(3) p {
   font-size: 8px;
 }
-.pharmacy-names .pharmacy-name:nth-child(3) img {
+.registration__pharmacy .registration__item:nth-child(3) img {
   width: 8px;
 }
-.pharmacy-names .pharmacy-name:nth-child(3) span {
+.registration__pharmacy .registration__item:nth-child(3) span {
   font-size: 8px;
 }
-.number-user {
+.users__number {
   padding-top: 28px;
   padding-bottom: 36px;
   text-align: center;
 }
-.number-user p {
+.users__number p {
   margin-bottom: 17px;
 }
-.number-user span {
+.users__number span {
   font-size: 36px;
 }
-.number-users {
+.users {
   position: relative;
   background-color: #1894ff;
   color: white;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   z-index: 5;
 }
 .back_ground img {
@@ -940,10 +945,10 @@ hr {
   right: 0;
 }
 
-.darmanito-services-info {
+.services__darmanito-info {
   margin-top: 100px;
 }
-.darmanito-services-info h2 {
+.services__darmanito-info h2 {
   font-size: 20px;
   text-align: right;
   padding: 4px 32px 4px 0;
@@ -952,12 +957,12 @@ hr {
   color: #2361b5;
   margin-bottom: 23px;
 }
-.choose-your-service img {
+.services__choose img {
   display: flex;
   margin-left: auto;
   margin-right: auto;
 }
-.choose-your-service {
+.services__choose {
   padding: 0 100px;
   margin-top: 60px;
   display: flex;
@@ -965,28 +970,28 @@ hr {
   justify-content: space-between;
   text-align: right;
 }
-.membership-services h3 {
+.membership__services h3 {
   font-size: 20px;
   color: #2361b5;
   margin-top: 56.4px;
 }
-.membership-services p {
+.membership__services p {
   margin-top: 22px;
   line-height: 32px;
   font-size: 14px;
 }
-.membership-btn {
+.membership__btn {
   margin-top: 32px;
   display: flex;
   justify-content: center;
 }
-.membership-btn a {
+.membership__btn a {
   color: #fff;
   padding: 15px 56px;
   background-color: #1894ff;
   border-radius: 10px;
 }
-.membership-services {
+.membership__services {
   padding: 54px 21px 36px 21px;
   box-shadow: 0px 0 20px 5px #00000013;
   border-radius: 50px;
@@ -1216,6 +1221,9 @@ hr {
   .download__phone-number p {
     font-size: 12px;
   }
+  .download__phone-number {
+    max-width: 100%;
+  }
 
   /* download ways */
   /* register */
@@ -1272,6 +1280,7 @@ hr {
     margin-bottom: 20px;
   }
   .support__info p {
+    padding-right: 0;
     font-size: 12px;
     margin-bottom: 28px;
     color: rgb(255, 255, 255);
@@ -1279,6 +1288,7 @@ hr {
   .support__call a {
     font-size: 1.4em;
     font-weight: 200;
+    /* margin-right: 10px; */
   }
   .support-section .container {
     padding: 20px;
@@ -1433,66 +1443,66 @@ hr {
   .registration {
     flex-direction: column;
   }
-  .pharmacy-names {
+  .registration__pharmacy {
     width: 100%;
   }
   .person-icon img {
     width: 50px;
   }
-  .pharmacy-name h3 {
+  .registration__item h3 {
     font-size: 13px;
   }
-  .pharmacy-name p {
+  .registration__item p {
     font-size: 8px;
   }
-  .pharmacy-name {
+  .registration__item {
     padding-bottom: 20px;
   }
-  .pharmacy-name {
+  .registration__item {
     margin-bottom: 63px;
   }
-  .pharmacy-info img {
+  .registration__item-info img {
     width: 8px;
   }
-  .registration-form {
+  .registration__form {
     width: 100%;
   }
-  .registration-form h1 {
+  .registration__form h1 {
     font-size: 24px;
     line-height: 36px;
   }
-  .registration-form p {
+  .registration__form p {
     font-size: 14px;
   }
-  .choose-your-service {
+  .services__choose {
     flex-direction: column;
   }
-  .quick-registration input {
+  .registration__form-input input {
     font-size: 12px;
   }
-  .quick-registration button {
+  .registration__form-input button {
     font-size: 12px;
     width: 100px;
   }
-  .number-users {
+  .users {
     flex-direction: column;
   }
-  .number-user p {
+  .users__number p {
     text-align: center;
     margin-bottom: 28px;
   }
-  .darmanito-services-info h2 {
+  .services__darmanito-info h2 {
     font-size: 16px;
     padding-right: 20px;
   }
-  .darmanito-services-info p {
+  .services__darmanito-info p {
     line-height: 26px;
     font-size: 12px;
   }
-  .membership-services {
+  .membership__services {
     margin-bottom: 20px;
   }
-  .darmanito-services-info {
+  .services__darmanito-info {
     margin-top: 37px;
   }
 
@@ -1517,7 +1527,7 @@ hr {
     font-size: 12px;
   }
 }
-@media only screen and (max-width: 1000px) and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
   .container {
     padding: 15px 0px;
   }
@@ -1528,7 +1538,8 @@ hr {
     padding: 20px 0;
     padding-left: 5px;
   }
-  a.nav-link {
+
+  .header__nav-items a {
     font-size: 0.8em;
     margin-right: 15px;
   }
@@ -1540,7 +1551,7 @@ hr {
   .hero__buttons {
     flex-direction: column-reverse;
     align-items: center;
-    justify-content: center;
+    margin-left: 100px;
   }
   .hero__buttons .download-app {
     margin-bottom: 50px;
@@ -1554,6 +1565,7 @@ hr {
   }
   .about__info {
     padding-right: 10px;
+    margin-left: 0;
   }
   footer .download__links {
     display: flex;
@@ -1566,29 +1578,26 @@ hr {
     white-space: nowrap;
   }
 
-  .registration {
-    flex-direction: column;
-  }
-  .pharmacy-names .pharmacy-name:nth-child(2) {
+  .registration__pharmacy .registration__item:nth-child(2) {
     margin-right: 0;
   }
-  .pharmacy-names .pharmacy-name:nth-child(3) {
+  .registration__pharmacy .registration__item:nth-child(3) {
     margin-right: 0;
   }
-  .pharmacy-name h3 {
+  .registration__item h3 {
     font-size: 13px;
   }
-  .quick-registration input {
+  .registration__form-input input {
     font-size: 10px;
   }
 
-  .quick-registration button {
+  .registration__form-input button {
     margin-left: 0;
   }
-  .choose-your-service {
+  .services__choose {
     flex-direction: column;
   }
-  .membership-services {
+  .membership__services {
     margin-bottom: 20px;
   }
   .support-section .container {
@@ -1603,9 +1612,25 @@ hr {
   .copy-right {
     width: 20%;
   }
+  .contact-us footer .container {
+    padding: 88px 0px 40px 0px;
+  }
+  .footer__Services a {
+    font-size: 15px;
+  }
+  .support__call p {
+    font-size: 0.8em;
+  }
+  .footer__desc {
+    width: 200px;
+  }
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (min-width: 1024px) and (max-width: 1336px) {
   .container {
     padding: 15px 0;
+  }
+  .header__nav-items a {
+    font-size: 1.2em;
+    margin-right: 25px;
   }
 } /*responsive */
