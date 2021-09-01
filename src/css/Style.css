@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: "mahdi";
-  src: url(font/Yekan.woff2) format("woff2");
+  src: url(../../assets/font/Yekan.woff2) format("woff2");
 }
 html {
   scroll-behavior: smooth;
@@ -258,6 +258,7 @@ a {
 }
 .features__info {
   text-align: right;
+  margin-left: 100px;
 }
 .features__info h3 {
   font-size: 20px;
@@ -269,6 +270,7 @@ a {
   padding-bottom: 15px;
 }
 .features__steps {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -278,26 +280,28 @@ a {
 .features__steps p {
   color: rgb(7, 7, 7);
 }
-.features__steps i {
+.features__steps img {
   margin-top: 10px;
+  margin-left: 20px;
   font-size: 35px;
-  padding-left: 10px;
-  color: #93c1d48a;
+  padding: 17px;
+  background-color: #e6f3ff;
+  border-radius: 50%;
 }
-.features__steps i:after {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  content: "|";
-  height: 10px;
-  color: #93c0d442;
+#line {
+  position: absolute;
+  background-color: unset;
+  top: 31px;
+  right: 5px;
+}
+#last-step {
+  padding: 12px;
+  background-color: #00de9a;
 }
 #last-step::after {
   content: "";
 }
-.checked {
-  color: rgba(5, 175, 5, 0.445) !important;
-}
+
 /* features */
 /* download ways */
 .download {
@@ -388,7 +392,7 @@ a {
 
 .register {
   margin-top: 100px;
-  padding: 20px;
+  padding: 50px;
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
@@ -468,7 +472,7 @@ p {
   padding-right: 20px;
   color: rgb(216, 216, 216);
 }
-.support__call a {
+.support__call {
   background-color: #2361b5;
   border-radius: 10px;
   padding: 15px;
@@ -477,10 +481,7 @@ p {
   flex-direction: row-reverse;
   align-items: center;
 }
-.support__call a i {
-  padding-left: 10px;
-  font-size: 20px;
-}
+
 /* support */
 /* footer */
 footer .container {
@@ -1525,6 +1526,21 @@ hr {
   }
   .features__steps p {
     font-size: 12px;
+  }
+  .features__info {
+    margin-left: 0;
+  }
+  #line {
+    top: 32px;
+    right: 6px;
+    transform: scale(1);
+    margin-top: 0;
+  }
+  .features__steps img {
+    position: relative;
+    top: -20px;
+    margin-top: 20px;
+    margin-left: 10px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 1024px) {

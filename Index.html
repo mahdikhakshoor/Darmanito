@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="Style.css" />
-    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="src/css/Style.css" />
+    <link rel="stylesheet" href="src/css/reset.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -25,7 +25,7 @@
               <p>همراه شما در درمان</p>
             </div>
             <div>
-              <img src="img/logo.svg" alt="" />
+              <img src="assets/img/logo.svg" alt="" />
             </div>
           </div>
           <div class="header__nav-items header__nav-menu">
@@ -33,7 +33,7 @@
               <a href="Index.html" class="header__nav-link"> صفحه اصلی </a>
             </div>
             <div class="header__nav-item" id="mobile-view">
-              <a href="membership.html" class="header__nav-link">
+              <a href="src/html/membership.html" class="header__nav-link">
                 عضویت در داروخانه ها
               </a>
             </div>
@@ -41,15 +41,15 @@
               <a href="#" class="header__nav-link">درباره ما</a>
             </div>
             <div class="header__nav-item">
-              <a href="Contact Us.html" class="header__nav-link"> تماس با ما</a>
+              <a href="src/html/Contact Us.html" class="header__nav-link"> تماس با ما</a>
             </div>
             <div class="header__nav-item" id="screen-view">
-              <a href="membership.html" class="header__nav-link">
+              <a href="src/html/membership.html" class="header__nav-link">
                 عضویت در داروخانه ها</a
               >
             </div>
             <div class="header__nav-item" id="mobile-view">
-              <a href="FAQ.html" class="header__nav-link">سوالات متداول </a>
+              <a href="src/html/FAQ.html" class="header__nav-link">سوالات متداول </a>
             </div>
             <div class="header__nav-item" id="mobile-view">
               <a href="#" class="header__nav-link">قوانین و شرایط</a>
@@ -81,7 +81,7 @@
           <h2 id="mobile-view">سوپر اپلیکیشن حوزه درمان و سلامت</h2>
           <div class="hero__buttons">
             <div class="membership btn">
-              <a href="membership.html">عضویت داروخانه ها</a>
+              <a href="src/html/membership.html">عضویت داروخانه ها</a>
             </div>
             <div class="download-app btn" id="screen-view">
               <a href="#">دانلود درمانیتو</a>
@@ -93,10 +93,10 @@
         </div>
         <div class="hero__img">
           <div id="screen-view" class="hero__img_bg back_ground">
-            <img width="48%" src="img/hero_bg.png" alt="" />
+            <img width="48%" src="assets/img/hero_bg.png" alt="" />
           </div>
           <a href="#">
-            <img src="img/doctor.svg" alt="" />
+            <img src="assets/img/doctor.svg" alt="" />
           </a>
         </div>
       </div>
@@ -115,26 +115,26 @@
 
           <div class="about__features">
             <div class="about__features-group">
-              <img src="img/search.svg" alt="" />
+              <img src="assets/img/search.svg" alt="" />
               <p>جستجو سریع</p>
             </div>
             <div class="about__features-group">
-              <img src="img/time.svg" alt="" />
+              <img src="assets/img/time.svg" alt="" />
               <p>به صرفه</p>
             </div>
             <div class="about__features-group">
-              <img src="img/support.svg" alt="" />
+              <img src="assets/img/support.svg" alt="" />
               <p>راحت</p>
             </div>
             <div class="about__features-group">
-              <img src="img/verify.svg" alt="" />
+              <img src="assets/img/verify.svg" alt="" />
               <p>جستجو سریع</p>
             </div>
           </div>
         </div>
         <div class="about__img">
           <a href="#">
-            <img src="img/preview-img.svg" alt="" />
+            <img src="assets/img/preview-img.svg" alt="" />
           </a>
         </div>
       </div>
@@ -166,7 +166,8 @@
                   وارد بخش ارسال عکس نسخه شوید و توضیحات نسخه رو وارد کنید
                 </p>
               </div>
-              <i class="fa fa-arrow-circle-down" aria-hidden="true"></i>
+              <img src="assets/img/arrow-down.png" class="icon" alt="" />
+              <img src="assets/img/line.png" id="line" alt="">
             </div>
             <div class="features__steps">
               <div>
@@ -179,7 +180,7 @@
                   بعد از اراسال عکس نسخه ، باید آدرس محل خودتون رو وارد کنید
                 </p>
               </div>
-              <i class="fa fa-arrow-circle-down" aria-hidden="true"></i>
+              <img src="assets/img/arrow-down.png" alt="">
             </div>
             <div id="step-three" class="features__steps">
               <div>
@@ -189,11 +190,11 @@
                   باشید
                 </p>
               </div>
-              <i
+              <img
                 id="last-step"
-                class="fa fa-check-circle checked"
-                aria-hidden="true"
-              ></i>
+                src="assets/img/check.png"
+                alt=""
+              ></img>
             </div>
           </div>
         </div>
@@ -203,25 +204,25 @@
           <div class="features__choose">
             <div class="features__item second">
               <a href="#">
-                <img src="img/shop.svg" alt="" />
+                <img src="assets/img/shop.svg" alt="" />
                 <p>فروشگاه</p>
               </a>
             </div>
             <div class="features__item first">
               <a href="#">
-                <img src="img/pharmacy.svg" alt="" />
+                <img src="assets/img/pharmacy.svg" alt="" />
                 <p>داروخانه</p>
               </a>
             </div>
             <div class="features__item forth">
               <a href="#">
-                <img src="img/calender.svg" alt="" />
+                <img src="assets/img/calender.svg" alt="" />
                 <p>نوبت دهی آنلاین</p>
               </a>
             </div>
             <div class="features__item third">
               <a href="#">
-                <img src="img/doctor-toys.svg" alt="" />
+                <img src="assets/img/doctor-toys.svg" alt="" />
                 <p>ویزیت آنلاین</p>
               </a>
             </div>
@@ -234,7 +235,7 @@
     <div class="subscription-bg">
       <div class="download">
         <div class="app-img">
-          <img src="img/app-preview.svg" alt="" />
+          <img src="assets/img/app-preview.svg" alt="" />
         </div>
         <div class="download__des">
           <div class="download__phone-number" id="test-jump">
@@ -260,14 +261,14 @@
           <div class="download__links">
             <div class="download__link">
               <a href="#">
-                <img src="img/sibapp.svg" alt="" />
+                <img src="assets/img/sibapp.svg" alt="" />
               </a>
             </div>
             <div class="download__link">
-              <img src="img/bazar.svg" alt="" />
+              <img src="assets/img/bazar.svg" alt="" />
             </div>
             <div class="download__link removed-link-mobile-view">
-              <img src="img/android.svg" alt="" />
+              <img src="assets/img/android.svg" alt="" />
             </div>
           </div>
         </div>
@@ -300,7 +301,7 @@
           </div>
         </div>
         <div class="register__img">
-          <img src="img/subscribe-img.svg" alt="" />
+          <img src="assets/img/subscribe-img.svg" alt="" />
         </div>
       </div>
     </div>
@@ -314,11 +315,7 @@
             <p>پاسخگویی در روز های کاری از 9 صبح تا 9 شب</p>
           </div>
           <div class="support__call">
-            <a href="#">
-              <i class="fa fa-headphones" aria-hidden="true"></i>
-
-              <p>پشتیبانی : 22222222-021</p>
-            </a>
+            <img src="assets/img/support-call.png" alt="">
           </div>
         </div>
       </div>
@@ -335,7 +332,7 @@
             </div>
             <div>
               <a href="#">
-                <img src="img/logo.svg" alt="" />
+                <img src="assets/img/logo.svg" alt="" />
               </a>
             </div>
           </div>
@@ -364,9 +361,9 @@
         </div>
         <div class="footer__Services">
           <h6>صفحات درمانتیو</h6>
-          <a href="Contact Us.html">تماس با ما </a>
+          <a href="src/html/Contact Us.html">تماس با ما </a>
           <a href="#">درباره ما</a>
-          <a href="FAQ.html">سوالات متداول</a>
+          <a href="src/html/FAQ.html">سوالات متداول</a>
           <a href="#">قوانین و مقررات</a>
         </div>
         <div class="footer__download-links">
@@ -374,12 +371,12 @@
           <div class="download__links">
             <div class="download__link">
               <a href="#">
-                <img src="img/sib-app-black.svg" alt="" />
+                <img src="assets/img/sib-app-black.svg" alt="" />
               </a>
             </div>
             <div class="download__link">
               <a href="#">
-                <img src="img/black-bazar.svg" alt="" />
+                <img src="assets/img/black-bazar.svg" alt="" />
               </a>
             </div>
           </div>
@@ -398,6 +395,6 @@
       </div>
     </footer>
     <!-- footer -->
-    <script src="script.js"></script>
+    <script src="src/js/script.js"></script>
   </body>
 </html>
