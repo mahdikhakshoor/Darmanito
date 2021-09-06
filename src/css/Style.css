@@ -1002,11 +1002,10 @@ hr {
   position: absolute;
   max-height: 100%;
 }
-.membership__brand_bg {
-}
+
 /*__________________Membership__________________*/
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   .container {
     padding: 25px 32px !important;
   }
@@ -1555,6 +1554,16 @@ hr {
     padding-left: 5px;
   }
 
+  .features__info {
+    margin-left: 0;
+  }
+  .register {
+    padding: 20px;
+  }
+  .support-section .container {
+    margin: 0;
+    padding-right: 0 !important;
+  }
   .header__nav-items a {
     font-size: 0.8em;
     margin-right: 15px;
